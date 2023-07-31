@@ -36,4 +36,6 @@ function changePage(direction) {
 }
 
 // Initial rendering of products
-renderProducts();
+window.onload = function() {
+    renderProducts();
+};
